@@ -227,3 +227,43 @@ def fill_blank_data_of_last_value(df_asset,key,inter_time,inter_value=-1):
                             df_asset.loc[i, key] = '%'+str(re.search("\d+",last_valide_value).group())+'%'
                                     
     return df_asset
+
+"""
+This function is used to generate 3 new columns : fuel,distance,average_speed
+Example:
+file_path = 'data/data_asset_choosed/'
+file_name = '2371_filled.csv'
+df_asset = pd.read_csv(file_path+file_name)
+df_asset = generate_info(df_asset)
+df_asset.to_csv(file_path+'2371_filled_test.csv',index=False)
+"""
+
+def generate_info(df_asset):
+	df_asset["fuel"]=""
+    df_asset["distance"]=""
+    df_asset["average_speed"]=""
+    for i in range(1,len(df_asset)):
+        current_data   = df_asset.iloc[i]
+        last_data      = df_asset.iloc[i-1]
+        current_fuel   = current_data["MDI_OBD_FUEL"]
+        current_meter  = current_data["ODO_FULL_METER"]
+        current_mil    = current_data["MDI_DASHBOARD_MILEAGE"]
+        current_time   = time.mktime( datetime.datetime.strptime(current_data["recorded_at"], "%Y-%m-%dT%H:%M:%SZ").timetuple() )
+        last_fuel      = last_data["MDI_OBD_FUEL"]
+        last_meter     = last_data["ODO_FULL_METER"]
+        last_mil       = last_data["MDI_DASHBOARD_MILEAGE"]
+        last_time      = time.mktime( datetime.datetime.strptime(last_data["recorded_at"], "%Y-%m-%dT%H:%M:%SZ").timetuple() )
+
+        if current_time - last_time<=145:
+            if current_meter!=' ' and last_meter!=' ':
+                distance = int( re.search("\d+",current_meter).group() ) - int( re.search("\d+",last_meter).group() )
+                if current_time - last_time!=0:
+                    average_speed = distance/1000/(current_time - last_time)*3600
+                else:
+                    average_speed = df_asset.loc[i-1, "average_speed"]
+                df_asset.loc[i, "distance"] = distance
+                df_asset.loc[i, "average_speed"] = average_speed
+            if current_fuel!=' ' and last_fuel!=' ':
+                fuel     = int( re.search("\d+",current_fuel).group() ) - int( re.search("\d+",last_fuel).group() )
+                df_asset.loc[i, "fuel"] = fuel
+    return df_asset
