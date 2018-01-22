@@ -176,8 +176,14 @@ Example:
 file_path = 'data/data_by_asset_keys/'
 file_name = '4.csv'
 key = 'MDI_OBD_FUEL'
-df_asset= fill_blank_data_of_last_value(file_path+file_name,key,500)
-df_asset.to_csv('4_test_fill_last2.csv')
+df_asset = pd.read_csv(file_path+file_name)
+keys = ['MDI_OBD_FUEL','ODO_FULL_METER','MDI_OBD_MILEAGE','MDI_DASHBOARD_MILEAGE']
+
+df_asset = fill_blank_data_of_last_value(df_asset,'MDI_OBD_FUEL',70,10)
+df_asset = fill_blank_data_of_last_value(df_asset,'ODO_FULL_METER',70,10)
+df_asset = fill_blank_data_of_last_value(df_asset,'MDI_OBD_MILEAGE',70,1)
+df_asset = fill_blank_data_of_last_value(df_asset,'MDI_DASHBOARD_MILEAGE',70,1)
+df_asset.to_csv('4_test_fill_last.csv')
 """
 def fill_blank_data_of_last_value(df_asset,key,inter_time,inter_value):
     count_data   = len(df_asset)
