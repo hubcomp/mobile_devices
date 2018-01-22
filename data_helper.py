@@ -6,6 +6,7 @@ import math
 from IPython.display import Markdown,display
 import datetime
 import time
+import re
 
 
 """
@@ -185,7 +186,7 @@ df_asset = fill_blank_data_of_last_value(df_asset,'MDI_OBD_MILEAGE',70,1)
 df_asset = fill_blank_data_of_last_value(df_asset,'MDI_DASHBOARD_MILEAGE',70,1)
 df_asset.to_csv('4_test_fill_last.csv')
 """
-def fill_blank_data_of_last_value(df_asset,key,inter_time,inter_value):
+def fill_blank_data_of_last_value(df_asset,key,inter_time,inter_value=-1):
     count_data   = len(df_asset)
     for i in range(count_data):
         current_time   = time.mktime( datetime.datetime.strptime(df_asset.iloc[i]['recorded_at'], "%Y-%m-%dT%H:%M:%SZ").timetuple() )
@@ -210,6 +211,8 @@ def fill_blank_data_of_last_value(df_asset,key,inter_time,inter_value):
                 
                 if interval_time <= inter_time:
                     df_asset.loc[i, key] = '%'+str(re.search("\d+",last_valide_value).group())+'%' 
+                elif inter_value==-1:
+                	pass
                 else :
                     for k in range(i+1,count_data):
                         if df_asset.iloc[k][key] != ' ':
