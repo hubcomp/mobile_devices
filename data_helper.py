@@ -34,8 +34,8 @@ def select_subset(df,num_asset,keys,file_path1,file_path2):
                                 |( (asset[keys_distance[1]]!=' ') & (asset[keys_distance[1]]!='0') ) 
                                 |( (asset[keys_distance[2]]!=' ') & (asset[keys_distance[2]]!='0') ) )] ) >0:
             file_name = str(i)+'.csv'  
-            asset.to_csv(file_path1+file_name)           #original data
-            asset[keys].to_csv(file_path2+file_name)     #data contains key info
+            asset.to_csv(file_path1+file_name,index=False)           #original data
+            asset[keys].to_csv(file_path2+file_name,index=False)     #data contains key info
 
 """
 function : divide a asset into small pieces according to the time interval
