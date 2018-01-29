@@ -239,7 +239,7 @@ df_asset.to_csv(file_path+'2371_filled_test.csv',index=False)
 """
 
 def generate_info(df_asset):
-	df_asset["fuel"]=""
+    df_asset["fuel"]=""
     df_asset["distance"]=""
     df_asset["average_speed"]=""
     for i in range(1,len(df_asset)):
@@ -267,3 +267,8 @@ def generate_info(df_asset):
                 fuel     = int( re.search("\d+",current_fuel).group() ) - int( re.search("\d+",last_fuel).group() )
                 df_asset.loc[i, "fuel"] = fuel
     return df_asset
+
+
+
+def datetime_to_int(date):
+    return time.mktime( datetime.datetime.strptime(date, "%Y-%m-%dT%H:%M:%SZ").timetuple() )
