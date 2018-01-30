@@ -45,7 +45,7 @@ file_path = 'data/data_by_asset_keys/'
 file_name = '4.csv'
 df_list = divise_asset_by_time(file_path+file_name)
 """
-def divise_asset_by_time(file_full_path):
+def divise_asset_by_time(file_full_path,interval):
     df_asset = pd.read_csv(file_full_path)
     df_list = []
     count_data = len(df_asset)
@@ -55,8 +55,7 @@ def divise_asset_by_time(file_full_path):
         last_time      = time.mktime( datetime.datetime.strptime(df_asset.iloc[i-1]['recorded_at'], "%Y-%m-%dT%H:%M:%SZ").timetuple() )
         current_time   = time.mktime( datetime.datetime.strptime(df_asset.iloc[i]['recorded_at'], "%Y-%m-%dT%H:%M:%SZ").timetuple() )
         
-        #here we consider the interval between 2 journey is greater than 30 minutes
-        interval = 1800
+        #here we consider the interval between 2 journey is greater than 5 minutes
         if current_time-last_time > interval:
             df_list.append(df_asset.iloc[start_line:i])
             start_line = i     
@@ -272,3 +271,109 @@ def generate_info(df_asset):
 
 def datetime_to_int(date):
     return time.mktime( datetime.datetime.strptime(date, "%Y-%m-%dT%H:%M:%SZ").timetuple() )
+
+
+
+def generate_speed_info_original_data(df_asset,interval_time_set):
+    average_speed = "average_speed"+"_"+str(interval_time_set)
+    df_asset[average_speed]=" "
+    for i in range(len(df_asset)-1):
+        current_data   = df_asset.iloc[i]
+        current_meter  = current_data["ODO_FULL_METER"]
+        current_time   = time.mktime( datetime.datetime.strptime(current_data["recorded_at"], "%Y-%m-%dT%H:%M:%SZ").timetuple() ) 
+        key = "ODO_FULL_METER"
+        
+        if df_asset.loc[i,average_speed] != " " and df_asset.loc[i+1,average_speed] != " ":
+            continue
+        
+        if current_meter != " ":
+            next_valide_index = None
+            next_valide_time  = None
+            next_valide_value = None
+            for k in range(i+1,len(df_asset)):
+                if df_asset.iloc[k][key] != ' ' :
+                    next_valide_time  = datetime_to_int(df_asset.iloc[k]['recorded_at'])
+                    
+                    if interval_time_set<= (next_valide_time-current_time):
+                        next_valide_index = k
+                        next_valide_value = df_asset.iloc[k][key]
+                        break
+                        
+            try:
+                interval_time  = next_valide_time - current_time 
+                interval_value = int(next_valide_value) - int(current_meter)
+            except:
+                print(k)
+            
+            
+            if interval_time<=1800:
+                for j in range(i+1,k+1):
+                    df_asset.loc[j,average_speed] = str(interval_value/interval_time*3.6)
+                    
+    return df_asset
+
+
+
+def generate_speed_info_original_data(df_asset):
+    df_asset["average_speed"]=" "
+    for i in range(1,len(df_asset)):
+        current_data   = df_asset.iloc[i]
+        current_meter  = current_data["ODO_FULL_METER"]
+        current_time   = time.mktime( datetime.datetime.strptime(current_data["recorded_at"], "%Y-%m-%dT%H:%M:%SZ").timetuple() ) 
+        key = "ODO_FULL_METER"
+        
+        if current_meter == " ":
+            last_valide_index = None
+            last_valide_time  = None
+            last_valide_value = None
+            next_valide_index = None
+            next_valide_time  = None
+            next_valide_value = None
+            for j in reversed(range(i)):
+                    if df_asset.iloc[j][key] != ' ':
+                        last_valide_index = j
+                        last_valide_time  = time.mktime( datetime.datetime.strptime(df_asset.iloc[j]['recorded_at'],"%Y-%m-%dT%H:%M:%SZ").timetuple() )
+                        last_valide_value = current_value  = df_asset.iloc[j][key]
+                        break
+
+            for k in range(i+1,len(df_asset)):
+                if df_asset.iloc[k][key] != ' ':
+                    next_valide_index = k
+                    next_valide_time  = time.mktime( datetime.datetime.strptime(df_asset.iloc[k]['recorded_at'],"%Y-%m-%dT%H:%M:%SZ").timetuple() )
+                    next_valide_value = current_value  = df_asset.iloc[k][key]
+                    break
+                    
+            if last_valide_value != None and next_valide_value != None :
+                interval_time  = next_valide_time  - last_valide_time
+                interval_value = int(next_valide_value) - int(last_valide_value)
+
+                
+                if interval_time<=900:
+                    if interval_time == 0:
+                        df_asset.loc[i,"average_speed"] = df_asset.loc[i-1,"average_speed"]
+                    else:
+                        df_asset.loc[i,"average_speed"] = str(interval_value/interval_time*3.6)
+                
+                    
+        else:
+            last_valide_index = None
+            last_valide_time  = None
+            last_valide_value = None
+            for j in reversed(range(i)):
+                    if df_asset.iloc[j][key] != ' ':
+                        last_valide_index = j
+                        last_valide_time  = time.mktime( datetime.datetime.strptime(df_asset.iloc[j]['recorded_at'],"%Y-%m-%dT%H:%M:%SZ").timetuple() )
+                        last_valide_value = current_value  = df_asset.iloc[j][key]
+                        break
+            
+            if last_valide_value != None :
+                interval_time  = current_time - last_valide_time
+                interval_value = int(current_meter) - int(last_valide_value)
+
+                
+                if interval_time<=900:
+                    if interval_time == 0:
+                        df_asset.loc[i,"average_speed"] = df_asset.loc[i-1,"average_speed"]
+                    else:
+                        df_asset.loc[i,"average_speed"] = str(interval_value/interval_time*3.6)
+    return df_asset 
