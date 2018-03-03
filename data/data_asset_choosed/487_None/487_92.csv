@@ -1,0 +1,24 @@
+asset,recorded_at,MDI_OBD_SPEED,GPS_SPEED,MDI_OBD_RPM,MDI_OBD_ENGINE_LOAD,MDI_OBD_FUEL,ODO_FULL_METER,MDI_DASHBOARD_MILEAGE,distance,delay,fuel,filled
+487,2017-10-22 22:50:21,nan,41.0,nan,nan,nan,nan,nan,nan,nan,nan,nan
+487,2017-10-22 22:50:22,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:01,2.98664817e-316,1.0
+487,2017-10-22 22:50:26,nan,0.0,nan,nan,nan,nan,nan,nan,0 days 00:00:04,6.9272466416009e-310,1.0
+487,2017-10-22 22:50:26,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:00,6.92724664160484e-310,1.0
+487,2017-10-22 22:50:29,nan,41.0,nan,nan,nan,nan,nan,nan,0 days 00:00:03,6.9272466416088e-310,1.0
+487,2017-10-22 22:50:30,nan,0.0,nan,nan,nan,nan,nan,nan,0 days 00:00:01,6.92724664161275e-310,1.0
+487,2017-10-22 22:50:57,nan,178.0,nan,nan,nan,nan,nan,nan,0 days 00:00:27,6.9272466416167e-310,1.0
+487,2017-10-22 22:51:28,nan,0.0,nan,nan,nan,nan,nan,nan,0 days 00:00:31,6.92724664162065e-310,1.0
+487,2017-10-22 22:51:59,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:31,6.9272466416246e-310,1.0
+487,2017-10-22 22:52:29,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:30,6.92724664162856e-310,1.0
+487,2017-10-22 22:52:59,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:30,6.9272466445989e-310,1.0
+487,2017-10-22 22:53:30,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:31,6.9272466416325e-310,1.0
+487,2017-10-22 22:54:00,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:30,6.92724664163646e-310,1.0
+487,2017-10-22 22:54:31,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:31,4.8e-322,1.0
+487,2017-10-22 22:55:02,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:31,6.92729195396165e-310,1.0
+487,2017-10-22 22:55:33,nan,706.0,nan,nan,nan,nan,nan,nan,0 days 00:00:31,2.9866537e-316,1.0
+487,2017-10-22 22:56:04,nan,0.0,nan,nan,nan,nan,nan,nan,0 days 00:00:31,0.0,0.0
+487,2017-10-22 22:56:34,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:30,3.2e-322,1.0
+487,2017-10-22 22:57:05,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:31,6.92729195396007e-310,1.0
+487,2017-10-22 22:57:35,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:30,2.9866553e-316,1.0
+487,2017-10-22 22:58:06,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:31,6.9272919539577e-310,1.0
+487,2017-10-22 22:58:36,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:30,1.63e-322,1.0
+487,2017-10-22 22:59:06,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:30,2.7568041e-316,1.0

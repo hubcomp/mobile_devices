@@ -1,0 +1,22 @@
+asset,recorded_at,MDI_OBD_SPEED,GPS_SPEED,MDI_OBD_RPM,MDI_OBD_ENGINE_LOAD,MDI_OBD_FUEL,ODO_FULL_METER,MDI_DASHBOARD_MILEAGE,distance,delay,fuel,filled
+487,2017-10-02 17:19:56,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+487,2017-10-02 17:19:56,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:00,2.61640724e-316,1.0
+487,2017-10-02 17:19:57,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:01,5.3102176e-317,1.0
+487,2017-10-02 17:19:57,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:00,5.3102176e-317,1.0
+487,2017-10-02 17:20:26,nan,175.0,nan,nan,nan,nan,nan,nan,0 days 00:00:29,5.3102176e-317,1.0
+487,2017-10-02 17:20:57,nan,0.0,nan,nan,nan,nan,nan,nan,0 days 00:00:31,5.3102176e-317,1.0
+487,2017-10-02 17:21:28,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:31,5.3102176e-317,1.0
+487,2017-10-02 17:21:58,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:30,5.3102176e-317,1.0
+487,2017-10-02 17:22:28,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:30,5.3102176e-317,1.0
+487,2017-10-02 17:22:58,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:30,5.3102176e-317,1.0
+487,2017-10-02 17:23:28,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:30,5.3102176e-317,1.0
+487,2017-10-02 17:23:58,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:30,5.3102176e-317,1.0
+487,2017-10-02 17:24:29,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:31,5.3102176e-317,1.0
+487,2017-10-02 17:24:59,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:30,4e-322,1.0
+487,2017-10-02 17:25:30,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:31,6.92729195396086e-310,1.0
+487,2017-10-02 17:26:00,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:30,2.61641277e-316,1.0
+487,2017-10-02 17:26:30,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:30,3.357167306901494e-309,1.0
+487,2017-10-02 17:27:01,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:31,2.4e-322,1.0
+487,2017-10-02 17:27:32,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:31,2.61641435e-316,1.0
+487,2017-10-02 17:28:02,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:30,2.613714e-316,1.0
+487,2017-10-02 17:28:33,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:31,5.396367e-317,1.0

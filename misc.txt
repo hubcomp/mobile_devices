@@ -1,0 +1,21 @@
+asset : 487
+number of lines : 52480
+How many cells are non empty for each column:
+
+            recorded_at              52480
+            MDI_OBD_SPEED            33170
+            GPS_SPEED                46872
+            MDI_OBD_RPM              16709
+            MDI_OBD_ENGINE_LOAD       4867
+            MDI_OBD_FUEL             43261
+            ODO_FULL_METER           18673
+            MDI_DASHBOARD_MILEAGE        0
+
+The distribution of send delay is different for each column:
+
+Some variables are sent a lot faster than others:
+
+GPS_SPEED, MDI_OBD_SPEED, MDI_OBD_FUEL are sent faster than 
+ODO_FULL_METER, MDI_OBD_RPM, MDI_OBD_ENGINE_LOAD
+
+
