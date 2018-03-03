@@ -1,6 +1,0 @@
-asset,recorded_at,MDI_OBD_SPEED,GPS_SPEED,MDI_OBD_RPM,MDI_OBD_ENGINE_LOAD,MDI_OBD_FUEL,ODO_FULL_METER,MDI_DASHBOARD_MILEAGE,distance,delay,fuel,filled
-487,2017-10-18 19:46:18,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
-487,2017-10-18 19:46:48,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:30,6.92728515861003e-310,1.0
-487,2017-10-18 19:46:55,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:07,1.593e-320,1.0
-487,2017-10-18 19:47:26,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:31,4e-323,1.0
-487,2017-10-18 19:47:35,nan,nan,nan,nan,nan,nan,nan,nan,0 days 00:00:09,2.37e-322,1.0
