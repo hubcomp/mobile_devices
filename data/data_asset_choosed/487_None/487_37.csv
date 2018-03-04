@@ -1,0 +1,20 @@
+asset,recorded_at,MDI_OBD_SPEED,GPS_SPEED,MDI_OBD_RPM,MDI_OBD_ENGINE_LOAD,MDI_OBD_FUEL,ODO_FULL_METER,MDI_DASHBOARD_MILEAGE,distance_meter,speed_filled,meter_filled,avrg_speed,distance_speed,distance_cum,delay,fuel
+487,2017-10-13 17:59:35,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+487,2017-10-13 18:00:05,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,30.000000000000004,nan
+487,2017-10-13 18:00:36,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,31.000000000000004,nan
+487,2017-10-13 18:01:06,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,30.000000000000004,nan
+487,2017-10-13 18:01:36,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,30.000000000000004,nan
+487,2017-10-13 18:02:07,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,31.000000000000004,nan
+487,2017-10-13 18:02:38,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,31.000000000000004,nan
+487,2017-10-13 18:03:09,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,31.000000000000004,nan
+487,2017-10-13 18:03:40,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,31.000000000000004,nan
+487,2017-10-13 18:04:11,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,31.000000000000004,nan
+487,2017-10-13 18:04:41,nan,482.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,30.000000000000004,nan
+487,2017-10-13 18:05:12,nan,399.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,31.000000000000004,nan
+487,2017-10-13 18:05:43,nan,0.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,31.000000000000004,nan
+487,2017-10-13 18:06:13,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,30.000000000000004,nan
+487,2017-10-13 18:06:44,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,31.000000000000004,nan
+487,2017-10-13 18:07:15,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,31.000000000000004,nan
+487,2017-10-13 18:07:45,nan,169.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,30.000000000000004,nan
+487,2017-10-13 18:07:48,nan,0.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,3.0,nan
+487,2017-10-13 18:08:11,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,23.0,nan
