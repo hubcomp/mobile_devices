@@ -1,0 +1,21 @@
+asset,recorded_at,MDI_OBD_SPEED,GPS_SPEED,MDI_OBD_RPM,MDI_OBD_ENGINE_LOAD,MDI_OBD_FUEL,ODO_FULL_METER,MDI_DASHBOARD_MILEAGE,distance_meter,speed_filled,meter_filled,avrg_speed,distance_speed,distance_cum,delay,fuel
+487,2017-10-08 11:34:25,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+487,2017-10-08 11:34:25,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,0.0,nan
+487,2017-10-08 11:34:28,nan,2997.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,3.0,nan
+487,2017-10-08 11:34:28,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,0.0,nan
+487,2017-10-08 11:34:58,nan,352.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,30.000000000000004,nan
+487,2017-10-08 11:35:29,nan,376.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,31.000000000000004,nan
+487,2017-10-08 11:36:00,nan,309.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,31.000000000000004,nan
+487,2017-10-08 11:36:31,nan,0.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,31.000000000000004,nan
+487,2017-10-08 11:37:02,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,31.000000000000004,nan
+487,2017-10-08 11:37:33,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,31.000000000000004,nan
+487,2017-10-08 11:38:03,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,30.000000000000004,nan
+487,2017-10-08 11:38:33,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,30.000000000000004,nan
+487,2017-10-08 11:39:03,nan,480.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,30.000000000000004,nan
+487,2017-10-08 11:39:34,nan,0.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,31.000000000000004,nan
+487,2017-10-08 11:40:04,nan,231.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,30.000000000000004,nan
+487,2017-10-08 11:40:35,nan,0.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,31.000000000000004,nan
+487,2017-10-08 11:41:05,nan,981.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,30.000000000000004,nan
+487,2017-10-08 11:41:36,nan,0.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,31.000000000000004,nan
+487,2017-10-08 11:42:06,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,30.000000000000004,nan
+487,2017-10-08 11:42:37,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,31.000000000000004,nan

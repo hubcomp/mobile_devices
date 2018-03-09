@@ -1,0 +1,26 @@
+asset,recorded_at,MDI_OBD_SPEED,GPS_SPEED,MDI_OBD_RPM,MDI_OBD_ENGINE_LOAD,MDI_OBD_FUEL,ODO_FULL_METER,MDI_DASHBOARD_MILEAGE,distance_meter,speed_filled,meter_filled,load_filled,rpm_filled,avrg_speed,acceleration,distance_speed,distance_cum,delay,fuel,filled_speed,filled_meter,filled_load,filled_rpm
+487,2017-10-27 17:20:27,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,False,False,False,False
+487,2017-10-27 17:20:27,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,0.0,nan,False,False,False,False
+487,2017-10-27 17:20:27,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,0.0,nan,False,False,False,False
+487,2017-10-27 17:20:27,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,0.0,nan,False,False,False,False
+487,2017-10-27 17:20:57,nan,161.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,30.000000000000004,nan,False,False,False,False
+487,2017-10-27 17:21:27,nan,364.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,30.000000000000004,nan,False,False,False,False
+487,2017-10-27 17:21:58,nan,0.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,31.000000000000004,nan,False,False,False,False
+487,2017-10-27 17:22:29,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,31.000000000000004,nan,False,False,False,False
+487,2017-10-27 17:23:00,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,31.000000000000004,nan,False,False,False,False
+487,2017-10-27 17:23:30,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,30.000000000000004,nan,False,False,False,False
+487,2017-10-27 17:24:00,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,30.000000000000004,nan,False,False,False,False
+487,2017-10-27 17:24:30,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,30.000000000000004,nan,False,False,False,False
+487,2017-10-27 17:25:01,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,31.000000000000004,nan,False,False,False,False
+487,2017-10-27 17:25:32,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,31.000000000000004,nan,False,False,False,False
+487,2017-10-27 17:26:02,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,30.000000000000004,nan,False,False,False,False
+487,2017-10-27 17:26:32,nan,56.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,30.000000000000004,nan,False,False,False,False
+487,2017-10-27 17:27:03,nan,0.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,31.000000000000004,nan,False,False,False,False
+487,2017-10-27 17:27:33,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,30.000000000000004,nan,False,False,False,False
+487,2017-10-27 17:28:04,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,31.000000000000004,nan,False,False,False,False
+487,2017-10-27 17:28:34,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,30.000000000000004,nan,False,False,False,False
+487,2017-10-27 17:29:04,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,30.000000000000004,nan,False,False,False,False
+487,2017-10-27 17:29:34,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,30.000000000000004,nan,False,False,False,False
+487,2017-10-27 17:30:05,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,31.000000000000004,nan,False,False,False,False
+487,2017-10-27 17:30:20,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,15.000000000000002,nan,False,False,False,False
+487,2017-10-27 17:30:42,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,22.0,nan,False,False,False,False

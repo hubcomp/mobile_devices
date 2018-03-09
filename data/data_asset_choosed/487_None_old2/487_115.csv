@@ -1,0 +1,27 @@
+asset,recorded_at,MDI_OBD_SPEED,GPS_SPEED,MDI_OBD_RPM,MDI_OBD_ENGINE_LOAD,MDI_OBD_FUEL,ODO_FULL_METER,MDI_DASHBOARD_MILEAGE,distance_meter,speed_filled,meter_filled,avrg_speed,distance_speed,distance_cum,delay,fuel
+487,2017-10-28 17:31:02,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+487,2017-10-28 17:31:02,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,0.0,nan
+487,2017-10-28 17:31:02,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,0.0,nan
+487,2017-10-28 17:31:02,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,0.0,nan
+487,2017-10-28 17:31:05,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,3.0,nan
+487,2017-10-28 17:31:32,nan,507.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,27.0,nan
+487,2017-10-28 17:32:03,nan,367.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,31.000000000000004,nan
+487,2017-10-28 17:32:34,nan,0.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,31.000000000000004,nan
+487,2017-10-28 17:33:05,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,31.000000000000004,nan
+487,2017-10-28 17:33:35,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,30.000000000000004,nan
+487,2017-10-28 17:34:05,nan,252.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,30.000000000000004,nan
+487,2017-10-28 17:34:35,nan,0.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,30.000000000000004,nan
+487,2017-10-28 17:35:06,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,31.000000000000004,nan
+487,2017-10-28 17:35:37,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,31.000000000000004,nan
+487,2017-10-28 17:36:07,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,30.000000000000004,nan
+487,2017-10-28 17:36:38,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,31.000000000000004,nan
+487,2017-10-28 17:37:08,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,30.000000000000004,nan
+487,2017-10-28 17:37:38,nan,318.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,30.000000000000004,nan
+487,2017-10-28 17:38:09,nan,0.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,31.000000000000004,nan
+487,2017-10-28 17:38:39,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,30.000000000000004,nan
+487,2017-10-28 17:39:09,nan,686.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,30.000000000000004,nan
+487,2017-10-28 17:39:40,nan,0.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,31.000000000000004,nan
+487,2017-10-28 17:40:11,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,31.000000000000004,nan
+487,2017-10-28 17:40:41,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,30.000000000000004,nan
+487,2017-10-28 17:40:55,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,14.0,nan
+487,2017-10-28 17:41:19,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,24.0,nan

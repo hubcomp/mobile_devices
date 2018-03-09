@@ -1,0 +1,14 @@
+asset,recorded_at,MDI_OBD_SPEED,GPS_SPEED,MDI_OBD_RPM,MDI_OBD_ENGINE_LOAD,MDI_OBD_FUEL,ODO_FULL_METER,MDI_DASHBOARD_MILEAGE,distance_meter,speed_filled,meter_filled,avrg_speed,distance_speed,distance_cum,delay,fuel
+487,2017-10-01 13:43:29,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+487,2017-10-01 13:43:36,nan,916.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,7.0,nan
+487,2017-10-01 13:43:41,nan,660.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,5.0,nan
+487,2017-10-01 13:43:43,nan,1058.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,2.0,nan
+487,2017-10-01 13:43:49,nan,1921.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,6.0,nan
+487,2017-10-01 13:43:53,nan,1360.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,4.0,nan
+487,2017-10-01 13:43:59,nan,780.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,6.0,nan
+487,2017-10-01 13:44:05,nan,1635.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,6.0,nan
+487,2017-10-01 13:44:07,nan,6369.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,2.0,nan
+487,2017-10-01 13:44:15,nan,5240.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,8.0,nan
+487,2017-10-01 13:44:21,nan,1135.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,6.0,nan
+487,2017-10-01 13:44:25,nan,0.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,4.0,nan
+487,2017-10-01 13:44:35,nan,436.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,10.0,nan

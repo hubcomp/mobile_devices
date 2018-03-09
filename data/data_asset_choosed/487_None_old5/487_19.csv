@@ -1,0 +1,18 @@
+asset,recorded_at,MDI_OBD_SPEED,GPS_SPEED,MDI_OBD_RPM,MDI_OBD_ENGINE_LOAD,MDI_OBD_FUEL,ODO_FULL_METER,MDI_DASHBOARD_MILEAGE,distance_meter,speed_filled,meter_filled,load_filled,rpm_filled,avrg_speed,distance_speed,distance_cum,delay,fuel,filled_speed,filled_meter,filled_load,filled_rpm
+487,2017-10-06 17:57:56,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,False,False,False,False
+487,2017-10-06 17:57:56,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,0.0,0.0,nan,False,False,False,False
+487,2017-10-06 17:57:59,nan,nan,649.0,nan,nan,nan,nan,nan,nan,nan,nan,649.0,nan,nan,0.0,3.0,nan,False,False,False,False
+487,2017-10-06 17:58:01,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,649.0,649.0,nan,nan,0.0,2.0,nan,False,False,True,True
+487,2017-10-06 17:58:02,nan,nan,656.0,nan,nan,nan,nan,nan,nan,nan,649.0,656.0,nan,nan,0.0,1.0,nan,False,False,True,False
+487,2017-10-06 17:58:02,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,656.0,656.0,nan,nan,0.0,0.0,nan,False,False,True,True
+487,2017-10-06 17:58:03,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,656.0,656.0,nan,nan,0.0,1.0,nan,False,False,True,True
+487,2017-10-06 17:58:05,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,656.0,656.0,nan,nan,0.0,2.0,nan,False,False,True,True
+487,2017-10-06 17:58:08,nan,nan,650.0,nan,3272774.0,nan,nan,nan,nan,nan,656.0,650.0,nan,nan,0.0,3.0,nan,False,False,True,False
+487,2017-10-06 17:58:08,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,650.0,650.0,nan,nan,0.0,0.0,nan,False,False,True,True
+487,2017-10-06 17:58:09,nan,1340.0,nan,nan,3272775.0,nan,nan,nan,nan,nan,650.0,650.0,nan,nan,0.0,1.0,1.0,False,False,True,True
+487,2017-10-06 17:58:15,nan,0.0,649.0,nan,3272778.0,nan,nan,nan,nan,nan,650.0,649.0,nan,nan,0.0,6.0,3.0,False,False,True,False
+487,2017-10-06 17:58:17,nan,598.0,650.0,nan,3272779.0,nan,nan,nan,nan,nan,649.0,650.0,nan,nan,0.0,2.0,1.0,False,False,True,False
+487,2017-10-06 17:58:27,nan,nan,631.0,57.0,3272785.0,nan,nan,nan,nan,nan,57.0,631.0,nan,nan,0.0,10.0,6.0,False,False,False,False
+487,2017-10-06 17:58:28,nan,0.0,nan,nan,3272786.0,nan,nan,nan,nan,nan,631.0,631.0,nan,nan,0.0,1.0,1.0,False,False,True,True
+487,2017-10-06 17:58:28,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,631.0,631.0,nan,nan,0.0,0.0,1.0,False,False,True,True
+487,2017-10-06 17:58:59,nan,617.0,651.0,28.0,3272803.0,nan,nan,nan,nan,nan,28.0,651.0,nan,nan,0.0,31.000000000000004,17.0,False,False,False,False
